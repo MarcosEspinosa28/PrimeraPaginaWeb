@@ -1,0 +1,40 @@
+body {
+    background:linear-gradient(rgb(76, 73, 255),
+    rgb(80, 112, 255),
+    rgb(155, 157, 241),
+    rgb(199, 199, 199));
+    font-family:'Roboto Slab';
+    color: #220000;
+  }
+  nav a{
+    font-family: "algerian";
+    color: #000000;
+    position: relative;
+    top: -80px;
+    right: -260px;
+    font-size: 28px;
+    margin: 15px;
+  }
+  h1{
+    font-family:"algerian";
+    font-weight:400;
+    color: #000000;
+    position:relative;
+    top:-130px;
+    left:330px;
+  }
+
+.carousel-item img {
+  width: auto ;
+  height: 310px;
+  position: relative;
+  top:15px ;
+  left: 20px;
+  align-content: center;
+
+}
+.carousel-inner{
+  width: 1340px;
+  height: 350px;
+
+}
