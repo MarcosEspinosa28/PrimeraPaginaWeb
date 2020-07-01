@@ -1,8 +1,15 @@
+.logo img{
+  width: 180px;
+  position: relative;
+  right: -20px;
+  bottom: -20px;
+}
+
 body {
-    background:linear-gradient(rgb(208, 255, 0),
-    rgb(43, 223, 7),
-    rgb(145, 255, 0),
-    rgb(0, 66, 11));
+    background:linear-gradient(rgb(255, 255, 255),
+    rgb(219, 255, 212),
+    rgb(217, 255, 167),
+    rgb(109, 241, 131));
     font-family:'Roboto Slab';
     color: #220000;
   }
@@ -51,10 +58,10 @@ body {
 
 .carousel-control-next{
 width: 150px;
-  border: solid #000000;
+border: solid #000000;
 position: relative;
 top: -250px;
-right: -1100px ;
+right: -1100px;
 }
 .carousel-control-prev{
   width: 150px;
@@ -62,4 +69,15 @@ right: -1100px ;
   position: relative;
   top:-230px;
   left:250px;
+  }
+  .botonmenu button{
+  border-radius:20px;
+  margin:15px;
+  padding:8px;
+  display: block;
+  position: relative;
+  top:-480px;
+  right:-10px;
+  width:180px;
+  height:40px;
   }

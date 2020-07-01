@@ -1,0 +1,289 @@
+.logo {
+  position: relative;
+  top: -10px;
+  width: 250px;
+  height: 200px;
+  right: -80px;
+}
+
+.buscar input[type=image]{
+  width: 50px;
+  position: relative;
+  right: -1050px;
+  top:20px;
+}
+
+.buscar input[type=search]{
+  width:230px;
+  position: relative;
+  right:-1050px;
+  color: #740606;
+}
+
+  body {
+    background:linear-gradient(rgb(240, 243, 245),
+    rgb(186, 211, 228),
+    rgb(125, 151, 170),
+    rgb(209, 209, 212));
+    font-family:  'Roboto Slab', serif;
+    color: #740606;
+  }
+
+  img {
+    width: 530px;
+    height: auto;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 30px;
+    height: 50px;
+
+  }
+
+  .nav-bar a {
+    font-weight: 400;
+    color: #8d0808;
+    position: relative;
+    top: -150px;
+    right: -430px;
+    font-size: 20px;
+    
+  }
+  .nav-bar a:hover {
+    color: rgb(7, 32, 102);
+    text-decoration: none;
+  }
+
+  .nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .nav-bar ul li {
+    margin: 0 15px;
+    font-weight: 300;
+    color: #8d0808;
+  }
+
+  .nav-bar ul li a {
+    text-decoration: none;
+    font-weight: 300;
+    color: inherit;
+    transition: .3s;
+  }
+
+  .nav-bar ul li a:hover {
+    color: rgb(22, 10, 133);
+  }
+  .container {
+    border: black;
+    position: relative;
+    top: -100px;
+  }
+  .sr-only {
+    border: solid #0a0b68;
+    color: black;
+  }
+  .contenedor  h5 a{
+    color: #8d0808;
+    margin: 300px;
+    position: relative;
+    top: -100px;
+    right: -150px;
+  }
+  .contenedor  h5 a:hover {
+    color: #0a0b68;
+    text-decoration: none;
+  }
+  .productos {
+    position: relative;
+    top: -80px;
+    right: -100px;
+  }
+  .iniciarsesion {
+    text-align: center;
+    position: relative;
+    top: -180px;
+  }
+  .iniciarsesion input[submit]{
+    background-color: #740606;
+  }
+  .buscar input{
+      width: 130px;
+      border-radius: 15px;
+      position: relative;
+      top: 10px;
+      right: -1090px;
+  }
+  
+.carousel-item img{
+  width: 310px;
+  height: 310px;
+  position: relative;
+  top:15px ;
+  left: 20px;
+}
+.carousel-inner{
+  width: 1020px;
+  height: 350px;
+  position: relative;
+  top: -50px;
+  left: 230px;
+ }
+
+.carousel-control-next{
+  width: 150px;
+  position: relative;
+  top: -250px;
+  right: -1100px;
+  }
+  .carousel-control-prev{
+    width: 150px;
+    position: relative;
+    top:-230px;
+    left:330px;
+    }
+    .boton button{
+      border-radius:20px;
+      margin:15px;
+      padding:8px;
+      display: block;
+      position: relative;
+      top:-880px;
+      right:-55px;
+      width:180px;
+      height:40px;
+    }
+
+    /* Registro */ 
+    .registro{
+      margin: 20px;
+      border: solid black;
+      width: 600px;
+      background-color: #a5a6fd;
+      justify-content: center;
+      position: relative;
+      top: -180px;
+      left: 430px;
+      height: 800px;
+      text-align: center;
+      font-family: 'Roboto Slab', serif;
+      font-size: 20px;
+      font-weight: bold;
+
+    }
+
+    
+    .registro h1,h2{
+      text-align:center;
+    }
+
+    .registro input,select{
+      margin:5px;
+     font-family: 'Roboto Slab', serif;
+      
+      color: #740606;
+    font-size: 20px;
+   
+    }
+
+    .registro input:hover,select:hover{
+      background: #a5a6fd;
+      color:#740606;
+    }
+
+  .registro input[type=submit]{
+width:80px;
+height: 50px;
+background:#a5a6fd;
+    color: #740606;
+    font-size: 20px;
+    font-family:'Roboto Slab', serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  .registro input[type=submit]:hover{
+    background:#740606;
+    color: #a5a6fd;
+    
+  }
+
+  .registro a:hover {
+    text-decoration: none;
+  }
+  .registro a:visited{
+    color: #740606;
+  }
+
+
+  /* Actualizar Datos */
+    .actualizardatos{
+      margin: 20px;
+      border: solid black;
+      width: 400px;
+      background-color: #a5a6fd;
+      justify-content: center;
+      position: relative;
+      top: 100px;
+      left: 500px;
+
+    }
+
+footer a img{
+  border:solid #0a0b68;
+  width: 80px;
+  height:80px;
+  position: relative;
+  left: 1050px;
+  top:-30px
+}
+
+/*  Iniciar Sesión  */
+
+.iniciarsesion{
+  border: solid black;
+  width: 600px;
+  height: 200px;
+  background-color: #a5a6fd;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  left: 500px;
+  
+}
+
+
+
+ .iniciarsesion input[type=submit]:hover ,input[type="button"]:hover{
+  background:  #a5a6fd;
+  color:#740606;
+}
+
+.iniciarsesion input[type=submit]{
+  position: relative;
+  right:-200px;
+  margin-top: 20px;
+}
+
+.iniciarsesion input[type=button]{
+  position: relative;
+  top:-28px;
+  right:-300px;
+}
+
+
+
+.iniciarsesion input{
+  color: #740606;
+ display: block;
+ position: relative;
+ right: -180px;
+
+}
+
