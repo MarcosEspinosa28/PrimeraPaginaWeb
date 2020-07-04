@@ -1,22 +1,77 @@
+.titulo{
+    text-align: center;
+    font-family:"algerian";
+    font-style: oblique;
+}
+
 body{
-    background-color: aqua;
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(229,213,253,1) 0%,rgba(159,108,226,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(229,213,253,1) 0%,rgba(159,108,226,1) 100%);
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 20em;
+    margin: 20px;
     padding-left: 20px;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: initial;
 
 }
 .imagen{
-    width: 80px;
+    width: 190px;
+    position: relative;
+    
 
 }
-ul .navbar{
-position: absolute;
-top: 30px;
-left: 50px;
-width: 100px;
+ul.navbar{
+position: relative;
+top: 0px;
+left:30px;
+width: 300px;
+list-style-type: none;
+padding: 0px;
+margin:0px;
+}
+ul.navbar li{
+    background: white;
+    margin: 8px 0px;
+    padding: 5px;
+    border-right:20px solid black;
+    width: 100px;
+}
+ul.navbar a {
+    text-decoration: none;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blueviolet;
+}
+address{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: thin dotted;
+}
+.box{
+    -webkit-border-radius: 25px;
+    border-radius: 30px;
+    width: 90%;
+    background: white;
+}
+#home{
+    padding: 10px;
+}
+#domicilios{
+    padding-left: 30px;
+}
+#formulario{
+    padding: 50px;
+    height: 200px;
+    margin: 100px;
+}
+#redes{
+    margin: 50px;
+    padding: 150px;
 
 }
