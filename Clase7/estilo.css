@@ -1,0 +1,64 @@
+.logo img{
+    width: 180px;
+    position: relative;
+    right: -20px;
+    bottom: -20px;
+  }
+  
+  body {
+      background:linear-gradient(rgb(255, 255, 255),
+      rgb(236, 207, 75),
+      rgb(222, 245, 121),
+      rgb(241, 129, 109));
+      font-family:'Roboto Slab';
+      color: #220000;
+    }
+    nav a{
+      font-family: "algerian";
+      color: #000000;
+      position: relative;
+      top: -100px;
+      right: -240px;
+      font-size: 28px;
+      margin: 15px;
+    }
+    h1{
+      font-family:"algerian";
+      font-weight:400;
+      color: #000000;
+      position:relative;
+      top:-130px;
+      left:330px;
+    }
+    .buscar input{
+    width: 90px;
+    position: relative;
+    top:-630px;
+    right:-1100px;
+    border: solid #000000;
+    border-radius: 15px;
+  }
+.formulario{
+  font-size: 10px;
+  border-radius: 50px;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 20px 20px 30px 30px #FF7F7A;
+  box-shadow: 20px 20px 30px 30px #FF7F7A;
+  width: 700px;
+  margin: 30px;
+  text-align: center;
+}
+
+.etiqueta{
+
+display: inline-flex;
+flex-direction: row;
+
+}
+
+.margin-text{
+display: inline-flex;
+border: #000000 solid;
+margin-left: 20px;
+width: 150px;
+}

@@ -8,8 +8,8 @@
 body {
     background:linear-gradient(rgb(255, 255, 255),
     rgb(219, 255, 212),
-    rgb(217, 255, 167),
-    rgb(109, 241, 131));
+    rgb(157, 209, 252),
+    rgb(122, 89, 241));
     font-family:'Roboto Slab';
     color: #220000;
   }
@@ -23,6 +23,7 @@ body {
     margin: 15px;
   }
   h1{
+    width: 700px;
     font-family:"algerian";
     font-weight:400;
     color: #000000;
@@ -31,53 +32,82 @@ body {
     left:330px;
   }
 
-.carousel-item img {
-  width: 310px;
-  height: 310px;
-  position: relative;
-  top:15px ;
-  left: 20px;
-  border: solid #000000;
-}
-.carousel-inner{
-  width: 1020px;
-  height: 350px;
-  position: relative;
-  top: -50px;
-  left: 230px;
-  border: solid #000000;
-}
 .buscar input{
   width: 90px;
   position: relative;
-  top:-630px;
+  top:-700px;
   right:-1100px;
-  border: solid #000000;
   border-radius: 15px;
 }
 
-.carousel-control-next{
-width: 150px;
-border: solid #000000;
-position: relative;
-top: -250px;
-right: -1100px;
-}
-.carousel-control-prev{
-  width: 150px;
-  border: solid #000000;
-  position: relative;
-  top:-230px;
-  left:250px;
-  }
   .botonmenu button{
   border-radius:20px;
   margin:15px;
   padding:8px;
   display: block;
   position: relative;
-  top:-480px;
+  top:-540px;
   right:-10px;
   width:180px;
   height:40px;
+  }
+
+  }
+  .Noticias{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    width: 1280px;
+    right: auto;
+    -webkit-box-shadow: 10px 10px 50px 30px #59B7FF;
+    box-shadow: 10px 10px 50px 30px #59B7FF;
+    position: relative;
+    top: -290px;
+    right: -20px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .formulario{
+    font-size: 10px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 20px 20px 30px 30px #FF7F7A;
+    box-shadow: 20px 20px 30px 30px #FF7F7A;
+    width: 700px;
+    margin: 30px;
+    position: relative;
+    top: -250px;
+    right: -300px;
+    padding: 50px;
+  }
+  .etiqueta{
+  
+  display: inline-flex;
+  flex-direction: row;
+  
+  }
+  
+  .margin-text{
+  display: inline-flex;
+  margin-left: 20px;
+  width: 150px;
+  }
+  .box2{
+   text-align: center;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 1280px;
+    left: auto;
+    -webkit-box-shadow: 10px 10px 50px 30px #59B7FF;
+    box-shadow: 10px 10px 50px 30px #59B7FF;
+    position: relative;
+    top: -30px;
+    right: -40px;
+    padding: 0%;
+    margin-top: 30px;
+    display: flex;
   }

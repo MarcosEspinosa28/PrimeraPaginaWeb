@@ -54,6 +54,7 @@ address{
     border-top: thin dotted;
 }
 .box{
+    border: solid black;
     -webkit-border-radius: 25px;
     border-radius: 30px;
     width: 90%;
